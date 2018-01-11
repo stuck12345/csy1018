@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>Rayhan world</title>
+      <link rel="stylesheet" href="css.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+  <table >
+    <tr>
+      <td>
+        <img id="logo" src="image/logo.png" alt="Rayhan World" width="150">
+      </td>
+      <td id="tagline">
+        <span>Let's Make A Difference!</span>
+      </td>
+    </tr>
+  </table>
+</header>
+<nav style="text-align: center;">
+  <div id="nav_menu">
+      <a href="index.html"><span class="nav">Home</span></a>
+      <a href="glossary.html"><span class="nav">Glossary</span></a>
+      <a href="comparison.html"><span class="nav">Comparison</span></a>
+      <a href="specialisation.html"><span class="nav">Specialisation</span></a>
+      <a href="mpg.html"><span class="nav">MPG</span></a>
+      <a href="reflection.html"><span class="nav">Reflection</span></a>
+    </div>
+</nav>
+    <div class="container-2">
+      <div class="main"> <h1>Business Computing(Web Design) specialisation</h1>
+                  <div style="text-align: center;"> 
+                 <iframe  width="560" height="315" src="https://www.youtube-nocookie.com/embed/TJTOds3uCFU?rel=0" allowfullscreen></iframe>
+                 </div>
+        </div>
+        <div class="maintext">
+        Business computing (Web Design) is a big field for graduate because they need for brand Management. Those who will be able to implement craft robust, reliable and easy to use web systems that can help to improve organisation system will be very demandable.Web design demands a range of creative, technical and commercial skills. You will explore the design, implementation and technological development skills of the WebMaster. With a practical approach, you will learn html, css, php and ajax. This course will give you an excellent foundation for ecommerce, web marketing, web development or management.<br>You will develop an understanding of current principles and practice while you gain the knowledge and skills you need for your career aspirations. The breadth of this first year allows you to transfer smoothly if you discover you have an interest in another area of Computing.<br>This course culminates in an applied project with a real client, or a dissertation linked to your strengths and preferences. You will study Security, Business Intelligence and Project Management at greater depth as you tailor your studies to your career aspirations and interests. Along with the skills and knowledge you’ve developed through the course, you will be well equipped to enter the workplace or continue on with further study.<br>The skills that you will learn in this course will enable you to embark on a range of careers, with roles including web development, website management, usability evaluation, test engineer, support or management of web-based systems, new developments and projects.
+      </div>
+      </div>
+    <div id="map" style="height: 250px; width: 100%; display: inline-block;  "></div>
+   <!-- Footer -->
+  <hr style="height: 3px; background-color: black;">
+  <span style="display:block; text-align: center;">
+      <a href="#"><img src="image/fb.png" alt="facebook link" width="20" ></a>
+  <a href="#"><img src="image/youtube.png" alt="youtube link" width="27" ></a>
+  
+</span>
+  <footer style="height: 170px;">
+    <form style="float: left; padding-bottom: 2px;">
+      <table>
+        <tr> 
+          <td>
+            <h2>Contact Form</h2>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td class="colouredtd"><label>NAME</label></td>
+          <td><input type="text" name="NAME" /></td>
+        </tr>
+        <tr>
+          <td class="colouredtd"><label>CONTACT</label></td>
+          <td><input type="number" name="CONTACT"></td>
+        </tr>
+        <tr>
+          <td class="colouredtd"><label>MESSAGE</label></td>
+          <td><textarea placeholder="Maximum 100 Words"></textarea></td>
+        </tr>
+      </table>
+      <input type="submit">
+    </form>
+  <div class="contacts">
+    <h1><u>Contact Us At-</u></h1>
+     
+    <h3>Mobile- 07387581372</h3>
+   
+  </div>
+  </footer>
+<h3 class="foocredits" >© 2018 Rayhan World | Best Viewed In 1366x768,1280x720</h3>
+<script>
+      function initMap() {
+        var uluru = {lat: 52.257854, lng: -0.905873};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfunznK7gXMeXLtFlqxWNH3GOQqwm00is&callback=initMap">
+    </script>
+  </body>
+</html>
